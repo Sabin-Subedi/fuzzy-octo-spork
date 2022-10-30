@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply p-2 rounded-md mt-1;
+  }
+  .btn-primary {
+    @apply bg-rose-600 text-white;
+  }
+  .block {
+    @apply w-full;
+  }
+
+  .input_container {
+    @apply border px-2 rounded-lg py-1 mb-4 relative;
+  }
+
+  .input_container label {
+    @apply text-sm w-full;
+  }
+
+  .input_container input {
+    @apply outline-none w-full text-base font-semibold;
+  }
+  .input_container input::placeholder {
+    @apply font-normal;
+  }
+}
+
+body {
+  @apply font-sans;
+}
+
+.logo {
+  font-family: "Lobster Two", cursive;
+  font-size: 4rem;
+  color: rgb(225 29 72/1);
+  margin-bottom: 3rem;
+}

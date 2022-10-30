@@ -1,0 +1,14 @@
+{
+  "name": "fuzzy-octo-spork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Sabin-Subedi/fuzzy-octo-spork.git",
+  "author": "Sabin Subedi <sabinsubedi125@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./src/main.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
