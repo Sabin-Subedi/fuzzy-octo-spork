@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    font-family: 'Roboto', sans-serif;
+    --primary: #FD2D1F;
+}
+
+
+body{
+    width:100vw;
+
+}
+
+.logo{
+    font-family: 'Lobster Two', cursive;
+    color: var(--primary);
+    font-size: 4rem;
+}
