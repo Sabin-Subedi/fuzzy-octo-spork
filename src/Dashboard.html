@@ -9,10 +9,10 @@
 
   <!-- partial:index.partial.html -->
   <body class="relative bg-rose-50 overflow-hidden max-h-screen">
-    <header class="fixed right-0 top-0 left-60 bg-rose-50 py-3 px-4 h-16">
+    <!-- <header class="fixed right-0 top-0 left-60 bg-rose-50 py-3 px-4 h-16">
       <div class="max-w-4xl mx-auto">
         <div class="flex items-center justify-between">
-          <div>
+          <!-- <div>
             <button
               type="button"
               class="btn flex items-center focus:outline-none rounded-lg text-gray-600 hover:text-rose-600 focus:text-rose-600 font-semibold p-2 border border-transparent hover:border-rose-300 focus:border-rose-300 transition"
@@ -24,10 +24,10 @@
               </span>
               <span class="text-sm">Archive</span>
             </button>
-          </div>
+          </div> -->
           <div class="text-lg font-bold">Today's Plan</div>
           <div>
-            <button
+            <!-- <button
               type="button"
               class="btn flex items-center focus:outline-none rounded-lg text-gray-600 hover:text-rose-600 focus:text-rose-600 font-semibold p-2 border border-transparent hover:border-rose-300 focus:border-rose-300 transition"
             >
@@ -38,52 +38,41 @@
               <i class="w-5" data-feather="chevron-right"></i>
                 </svg>
               </span>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
 
-    <aside class="fixed inset-y-0 left-0 bg-white shadow-md max-h-screen w-60">
-      <div class="flex flex-col justify-between h-full">
+    <aside class="sidebar">
+      <div class="sidebar_content">
         <div class="flex-grow">
           <div class="px-4 py-6 text-center border-b">
-            <h1 class="logo  text-4xl mb-1">
-              Taskioo
-            </h1>
+            <h1 class="logo text-4xl mb-1">Taskioo</h1>
           </div>
           <div class="p-4">
             <ul class="space-y-1">
               <li>
-                <a
-                  href="javascript:void(0)"
-                  class="flex items-center bg-rose-200 rounded-xl font-bold text-sm text-rose-900 py-3 px-4"
-                >
-                <i class="w-5 mr-3" data-feather="calendar"></i>  <span>Plan</span>
+                <a href="javascript:void(0)" class="sidebar_menu_item active">
+                  <i class="w-5 mr-3" data-feather="calendar"></i>
+                  <span>Plan</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  class="flex items-center bg-white hover:bg-rose-50 rounded-xl font-bold text-sm text-gray-900 py-3 px-4"
-                >
-                <i class="w-5 mr-3" data-feather="list"></i>  <span>Task List</span>
+                <a href="javascript:void(0)" class="sidebar_menu_item">
+                  <i class="w-5 mr-3" data-feather="list"></i>
+                  <span>Task List</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  class="flex bg-white hover:bg-rose-50 rounded-xl font-bold text-sm text-gray-900 py-3 px-4"
-                >
-                <i class="w-5 mr-3" data-feather="folder"></i>  <span>Projects</span>
+                <a href="javascript:void(0)" class="sidebar_menu_item">
+                  <i class="w-5 mr-3" data-feather="folder"></i>
+                  <span>Projects</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
-                  class="flex items-center bg-white hover:bg-rose-50 rounded-xl font-bold text-sm text-gray-900 py-3 px-4"
-                >
-                <i class="w-5 mr-3" data-feather="tag"></i>  <span>Tags</span>
+                <a href="javascript:void(0)" class="sidebar_menu_item">
+                  <i class="w-5 mr-3" data-feather="tag"></i> <span>Tags</span>
                 </a>
               </li>
             </ul>
@@ -106,17 +95,17 @@
                 d="M12 1a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2a1 1 0 0 1 1-1h8zm-2 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
               />
             </svg>
-    
-        </button>
+          </button>
           <span class="font-bold text-sm ml-2">Logout</span>
         </div>
       </div>
     </aside>
 
-    <main class="ml-60 pt-16 max-h-screen overflow-auto">
-      <div class="px-6 py-8">
+    <main class="ml-60  max-h-screen overflow-auto">
+      <div class="px-6 pb-8">
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white rounded-3xl p-8 mb-5">
+            <h4 class="text-2xl">Your Plans</h4>
+          <!-- <div class="bg-white rounded-3xl p-8 mb-5">
             <h1 class="text-3xl font-bold mb-10">
               Messaging ID framework development for the marketing branch
             </h1>
@@ -280,7 +269,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </main>

@@ -34,6 +34,21 @@
     color: rgb(225 29 72/1);
     margin-bottom: 3rem;
   }
+
+  .sidebar {
+    @apply fixed inset-y-0 left-0 bg-white shadow-md max-h-screen w-60;
+  }
+  .sidebar_content {
+    @apply flex flex-col justify-between h-full;
+  }
+
+  .sidebar_menu_item {
+    @apply flex bg-white hover:bg-rose-50 rounded-xl font-bold text-sm text-gray-900 py-3 px-4;
+    /* @apply flex items-center bg-rose-200 rounded-xl font-bold text-sm text-rose-900 py-3 px-4; */
+  }
+  .sidebar_menu_item.active {
+    @apply bg-rose-200 text-rose-900;
+  }
 }
 
 body {
