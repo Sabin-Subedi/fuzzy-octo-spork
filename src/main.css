@@ -28,15 +28,14 @@
   .input_container input::placeholder {
     @apply font-normal;
   }
+  .logo {
+    font-family: "Lobster Two", cursive;
+    font-size: 4rem;
+    color: rgb(225 29 72/1);
+    margin-bottom: 3rem;
+  }
 }
 
 body {
   @apply font-sans;
-}
-
-.logo {
-  font-family: "Lobster Two", cursive;
-  font-size: 4rem;
-  color: rgb(225 29 72/1);
-  margin-bottom: 3rem;
 }
